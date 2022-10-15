@@ -120,22 +120,21 @@ table td { border: 1px solid #e8e8e8; }
 
 .page-heading { font-size: 32px; }
 
-.post-list-heading { font-size: 28px; }
+/** Projects Section */
+.projects-wrapper { display: flex; flex-flow: row wrap; justify-content: space-around; align-items: flex-start; }
 
-.post-list { margin-left: 0; list-style: none; }
+.projects-wrapper .project-tile { flex: 0 1 auto; border-radius: 5%; max-width: 40%; min-height: 300px; margin-top: 30px; box-shadow: 5px 5px 11px 3px rgba(0, 0, 0, 0.2); overflow: hidden; }
 
-.post-list > li { margin-bottom: 30px; }
+.projects-wrapper .project-tile .tile-content { padding: 5px 10px; }
 
-.post-meta { font-size: 14px; color: #828282; }
-
-.post-link { display: block; font-size: 24px; }
+@media screen and (max-width: 600px) { .projects-wrapper .project-tile { max-width: 90%; } }
 
 /** Posts */
 .post-header { margin-bottom: 30px; }
 
-.post-title { font-size: 42px; letter-spacing: -1px; line-height: 1; }
+.section-title { font-size: 42px; letter-spacing: -1px; line-height: 1; }
 
-@media screen and (max-width: 800px) { .post-title { font-size: 36px; } }
+@media screen and (max-width: 800px) { .section-title { font-size: 36px; } }
 
 .post-content { margin-bottom: 30px; }
 
@@ -150,6 +149,16 @@ table td { border: 1px solid #e8e8e8; }
 .post-content h4 { font-size: 20px; }
 
 @media screen and (max-width: 800px) { .post-content h4 { font-size: 18px; } }
+
+.post-content h4 .post-list-heading { font-size: 28px; }
+
+.post-content h4 .post-list { margin-left: 0; list-style: none; }
+
+.post-content h4 .post-list > li { margin-bottom: 30px; }
+
+.post-content h4 .post-meta { font-size: 14px; color: #828282; }
+
+.post-content h4 .post-link { display: block; font-size: 24px; }
 
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
