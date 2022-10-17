@@ -1,1 +1,0 @@
-# michaeljosephmiller.github.io
