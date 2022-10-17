@@ -14,7 +14,7 @@
   screenshot: 'CEIS101_July2022_Final_Project_Michael_Miller.png'
   description: 'This project is a prototype for an Arduino based home security and automation system.'
   alt_text: 'screenshot of project design'
-  repo_url: 'https://github.com/michael-joseph-miller/arduino-home-security'
+  repo_url: 'https://github.com/michaeljosephmiller/arduino-home-security'
   site_url: ''
   download_file: 'arduino_alarm.pptx'
 
@@ -23,7 +23,7 @@
   screenshot: 'usa-lottery-results-screenshot.png'
   description: 'Website that lists Powerball and Mega Millions drawing results and jackpots.'
   alt_text: 'screenshot of USA Lottery Results website'
-  repo_url: 'https://github.com/michael-joseph-miller/usa-lottery-results'
+  repo_url: 'https://github.com/michaeljosephmiller/usa-lottery-results'
   site_url: 'https://usa-lottery-results.vercel.app/'
   download_file: ''
 
@@ -32,8 +32,8 @@
   screenshot: 'tribute-page-screenshot.png'
   description: 'Website that celebrates the aircraft carrier U.S.S. Midway, CV-41.'
   alt_text: 'screenshot of u.s.s. midway tribute page'
-  repo_url: 'https://github.com/MichaelJosephMiller/fcc-tribute-page'
-  site_url: 'https://michael-joseph-miller.github.io/fcc-tribute-page/'
+  repo_url: 'https://github.com/michaeljosephmiller/fcc-tribute-page'
+  site_url: 'https://michaeljosephmiller.github.io/fcc-tribute-page/'
   download_file: ''
 
 - title: 'Product Landing Page'
@@ -41,8 +41,8 @@
   screenshot: 'landing-page-screenshot.png'
   description: 'Website that demonstrates a product landing page.'
   alt_text: 'screenshot of product landing page'
-  repo_url: 'https://github.com/michael-joseph-miller/fcc-product-landing-page'
-  site_url: 'https://michael-joseph-miller.github.io/fcc-product-landing-page/'
+  repo_url: 'https://github.com/michaeljosephmiller/fcc-product-landing-page'
+  site_url: 'https://michaeljosephmiller.github.io/fcc-product-landing-page/'
   download_file: ''
 
 - title: 'Technical Documentation Page'
@@ -50,6 +50,6 @@
   screenshot: 'tech-documentation-page-creenshot.png'
   description: 'Website that demonstrates a technical documentation page.'
   alt_text: 'screenshot of technical documentation page'
-  repo_url: 'https://github.com/michael-joseph-miller/fcc-technical-documentation-page/'
+  repo_url: 'https://github.com/michaeljosephmiller/fcc-technical-documentation-page/'
   site_url: 'https://michaeljosephmiller.github.io/fcc-technical-documentation-page/'
   download_file: ''
