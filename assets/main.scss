@@ -2,4 +2,6 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "minima";
+@import 'index';
+@import '../vendor/fontawesome/scss/fontawesome';
+@import '../vendor/fontawesome/scss/brands';
