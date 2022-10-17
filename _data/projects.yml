@@ -16,7 +16,7 @@
   alt_text: 'screenshot of project design'
   repo_url: 'https://github.com/michaeljosephmiller/arduino-home-security'
   site_url: ''
-  download_file: 'arduino_alarm.pptx'
+  download_file: '/assets/downloads/arduino_alarm.pptx'
 
 - title: 'USA Lottery Results'
   date: 'May 5, 2022'
