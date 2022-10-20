@@ -9,6 +9,15 @@
   site_url: '/#'
   download_file: ''
 
+- title: 'Linux Basic Administration Presentation'
+  date: 'October 22, 2022'
+  screenshot: 'linux_tux.svg'
+  description: 'DeVry University CEIS106 Final Project'
+  alt_text: 'Linux text with funny penguin face'
+  repo_url: ''
+  site_url: ''
+  download_file: '/assets/downloads/CEIS106_Sep-2022_Final-Project_Michael-Miller.pptx'
+
 - title: 'Arduino Home Security and Automation System'
   date: 'August 26, 2022'
   screenshot: 'CEIS101_July2022_Final_Project_Michael_Miller.png'
