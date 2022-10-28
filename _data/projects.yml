@@ -9,6 +9,15 @@
   site_url: ""
   download_file: ""
 
+- title: "Lottery Analyzer"
+  date: ""
+  screenshot: "lottery-analyzer.jpg"
+  description: "Website that calculates overdue lottery numbers and displays them."
+  alt_text: "screenshot of website"
+  repo_url: "https://github.com/michaeljosephmiller/lottery-analyzer"
+  site_url: "https://michaeljosephmiller.github.io/lottery-analyzer/"
+  download_file: ""
+
 - title: "Python Data Analysis and Visualization"
   date: "October 22, 2022"
   screenshot: "python-logo.png"
@@ -35,15 +44,6 @@
   repo_url: "https://github.com/michaeljosephmiller/arduino-home-security"
   site_url: ""
   download_file: "/assets/downloads/arduino_alarm.pptx"
-
-- title: "USA Lottery Results"
-  date: "May 5, 2022"
-  screenshot: "usa-lottery-results-screenshot.png"
-  description: "Website that lists Powerball and Mega Millions drawing results and jackpots."
-  alt_text: "screenshot of USA Lottery Results website"
-  repo_url: "https://github.com/michaeljosephmiller/usa-lottery-results"
-  site_url: "https://usa-lottery-results.vercel.app/"
-  download_file: ""
 
 - title: "Tribute Page"
   date: "November 15, 2021"
