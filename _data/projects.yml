@@ -11,7 +11,7 @@
 
 - title: "Lottery Analyzer"
   date: "October 28, 2022"
-  screenshot: "lottery-analyzer.jpg"
+  screenshot: "lottery-analyzer.png"
   description: "Website that calculates overdue lottery numbers and displays them."
   alt_text: "screenshot of website"
   repo_url: "https://github.com/michaeljosephmiller/lottery-analyzer"
