@@ -1,0 +1,18 @@
+---
+title: Blog
+layout: page
+permalink: /blog/
+---
+<section>
+  <ul class="posts">
+    {% for post in site.posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <a class="post-link"
+        href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {{ post.excerpt | truncate: 240, '' }}
+      <a class='post-link excerpt' href='{{ post.url | relative_url }}'>...</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

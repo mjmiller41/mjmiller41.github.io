@@ -123,9 +123,9 @@ main.site-content {
   justify-content: space-evenly;
   section {
     padding-top: 1rem;
-    &.projects-section {
-      border-top: 1px solid $brand-color;
-    }
+  }
+  .projects-section {
+    border-top: 1px solid $brand-color;
   }
 }
 
