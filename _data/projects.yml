@@ -8,6 +8,15 @@
   repo_url: ""
   site_url: ""
   download_file: ""
+  
+- title: "IoT Cloud Controlled Traffic Light Prototype"
+  date: ""
+  screenshot: "esp32_project.jpg"
+  description: "Prototype of two way traffic light operation with pedestrian crosswalk button, and emergency mode with remotely activation."
+  alt_text: "image of code"
+  repo_url: "https://github.com/michaeljosephmiller/arduino-traffic-signal"
+  site_url: ""
+  download_file: "assets/downloads/CEIS114_Final-Project_Option-1_Michael-Miller.pptx"
 
 - title: "Lottery Analyzer"
   date: "October 28, 2022"
