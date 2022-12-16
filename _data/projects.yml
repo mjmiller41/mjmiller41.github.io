@@ -7,7 +7,7 @@
   alt_text: "screenshot of website"
   repo_url: ""
   site_url: ""
-  download_file: ""
+  download_file: "/filepath"
   
 - title: "Basic Networking Skills Powerpoint"
   date: "12/17/2022"
@@ -16,7 +16,7 @@
   alt_text: "image of network diagram"
   repo_url: ""
   site_url: ""
-  download_file: "assets/downloads/NETW191_Final-Project_Michael-Miller.pptx"
+  download_file: "/assets/downloads/NETW191_Final-Project_Michael-Miller.pptx"
   
 - title: "IoT Cloud Controlled Traffic Light Prototype"
   date: "12/17/2022"
@@ -25,7 +25,7 @@
   alt_text: "image of code"
   repo_url: "https://github.com/michaeljosephmiller/arduino-traffic-signal"
   site_url: ""
-  download_file: "assets/downloads/CEIS114_Final-Project_Option-1_Michael-Miller.pptx"
+  download_file: "/assets/downloads/CEIS114_Final-Project_Option-1_Michael-Miller.pptx"
 
 - title: "Lottery Analyzer"
   date: "October 28, 2022"
