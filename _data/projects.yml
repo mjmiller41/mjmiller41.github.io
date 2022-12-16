@@ -9,8 +9,17 @@
   site_url: ""
   download_file: ""
   
+- title: "Basic Networking Skills Powerpoint"
+  date: "12/17/2022"
+  screenshot: "Sample-network-diagram.png"
+  description: "Website demonstrating ..............................."
+  alt_text: "image of network diagram"
+  repo_url: ""
+  site_url: ""
+  download_file: "assets/downloads/NETW191_Final-Project_Michael-Miller.pptx"
+  
 - title: "IoT Cloud Controlled Traffic Light Prototype"
-  date: ""
+  date: "12/17/2022"
   screenshot: "esp32_project.jpg"
   description: "Prototype of two way traffic light operation with pedestrian crosswalk button, and emergency mode with remotely activation."
   alt_text: "image of code"
