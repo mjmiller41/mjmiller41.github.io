@@ -113,6 +113,15 @@ main.site-content {
   @include relative-font-size(2);
 }
 
+button.copyBtn {
+  display: block;
+  margin: 0 0 0 auto;
+  svg {
+    width: 1em;
+    height: 1em;
+  }
+}
+
 /**
 * Home Page
 */

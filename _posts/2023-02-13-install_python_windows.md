@@ -1,11 +1,9 @@
 ---
 layout: post
-title: 'Installing Python (Windows)'
+title: 'Installing Python on Windows'
 date: 2023-02-12
 categories: install python windows
 ---
-
-# Installing Python on Windows for Developers
 
 Python is a popular, high-level programming language known for its simplicity, readability, and versatility. This tutorial will guide you through the process of installing Python on Windows.
 
