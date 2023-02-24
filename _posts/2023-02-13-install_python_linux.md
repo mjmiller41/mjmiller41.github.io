@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: post.liquid
 title: 'Installing Python on Linux'
 date: 2023-02-13
-categories: install python linux
+categories: Python
 ---
 
 Python is a popular, high-level programming language known for its simplicity, readability, and versatility. This tutorial will guide you through the process of installing Python on a Linux system.

@@ -1,3 +1,7 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 /**
  * Reset some basic elements
  */
@@ -35,6 +39,7 @@ body {
   font-feature-settings: 'kern' 1;
   font-kerning: normal;
   min-height: 100vh;
+  min-width: 330px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -191,6 +196,7 @@ pre {
 .wrapper {
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
   max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+  // min-width: 282px;
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-unit;

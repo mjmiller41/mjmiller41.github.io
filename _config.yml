@@ -19,10 +19,9 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Michael Joseph Miller
-email: michael.joseph.miller@gmail.com
+email: michael.joseph.miller@proton.me
 description: >- # this means to ignore newlines until "baseurl:"
   Michael Joseph Miller's portfolio and blog website. Built with <a href='https://jekyllrb.com' target='_blank'>Jekyll</a> and <a href='https://github.com' target='_blank'>GitHub</a> Pages
-
 
 baseurl: # the subpath of your site, e.g. /blog
 url: https://michaeljosephmiller.github.io # the base hostname & protocol for your site, e.g. http://example.com

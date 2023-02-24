@@ -1,91 +1,100 @@
 # Use the following template to add new projects. Place newly added projects at the top of the document.
 
-- title: "Placeholder"
-  date: ""
-  screenshot: "placeholder.jpg"
-  description: "Website demonstrating ..............................."
-  alt_text: "screenshot of website"
-  repo_url: ""
-  site_url: ""
-  download_file: "/filepath"
-  
-- title: "Basic Networking Skills Powerpoint"
-  date: "12/17/2022"
-  screenshot: "Sample-network-diagram.png"
+- title: 'Placeholder'
+  date: ''
+  screenshot: 'placeholder.jpg'
+  description: 'Website demonstrating ...............................'
+  alt_text: 'screenshot of website'
+  repo_url: ''
+  site_url: ''
+  download_file: '/filepath'
+
+- title: 'Microsoft Azure Fundamentals'
+  date: '02/26/2023'
+  screenshot: 'azure_icons.png'
+  description: 'Powerpoint presentation outlining Microsoft Azure cloud product offerings.'
+  alt_text: 'azure icons'
+  repo_url: ''
+  site_url: ''
+  download_file: '/assets/downloads/NETW211_Final_Project_Michael-Miller_02-26-2023.pptx'
+
+- title: 'Basic Networking Skills'
+  date: '12/17/2022'
+  screenshot: 'Sample-network-diagram.png'
   description: "Powerpoint outlining the basics of Networking. Final project for DeVry University's NETW191 class."
-  alt_text: "image of network diagram"
-  repo_url: ""
-  site_url: ""
-  download_file: "/assets/downloads/NETW191_Final-Project_Michael-Miller.pptx"
-  
-- title: "IoT Cloud Controlled Traffic Light Prototype"
-  date: "12/17/2022"
-  screenshot: "esp32_project.jpg"
-  description: "Prototype of two way traffic light operation with pedestrian crosswalk button, and emergency mode with remotely activation."
-  alt_text: "image of code"
-  repo_url: "https://github.com/michaeljosephmiller/arduino-traffic-signal"
-  site_url: ""
-  download_file: "/assets/downloads/CEIS114_Final-Project_Option-1_Michael-Miller.pptx"
+  alt_text: 'image of network diagram'
+  repo_url: ''
+  site_url: ''
+  download_file: '/assets/downloads/NETW191_Final-Project_Michael-Miller.pptx'
 
-- title: "Lottery Analyzer"
-  date: "October 28, 2022"
-  screenshot: "lottery-analyzer.png"
+- title: 'IoT Cloud Controlled Traffic Light Prototype'
+  date: '12/17/2022'
+  screenshot: 'esp32_project.jpg'
+  description: 'Prototype of two way traffic light operation.'
+  alt_text: 'image of code'
+  repo_url: 'https://github.com/michaeljosephmiller/arduino-traffic-signal'
+  site_url: ''
+  download_file: '/assets/downloads/CEIS114_Final-Project_Option-1_Michael-Miller.pptx'
+
+- title: 'Lottery Analyzer'
+  date: 'October 28, 2022'
+  screenshot: 'lottery-analyzer.png'
   description: "Website that calculates overdue lottery numbers and displays them. Built with <a href='https://pyscript.net' target='_blank'>PyScript</a>, <a href='https://matplotlib.org' target='_blank'>MatPlotLib</a>, and <a href='https://pages.github.com' target='_blank'>GitHub Pages</a>"
-  alt_text: "screenshot of website"
-  repo_url: "https://github.com/michaeljosephmiller/lottery-analyzer"
-  site_url: "https://michaeljosephmiller.github.io/lottery-analyzer/"
-  download_file: ""
+  alt_text: 'screenshot of website'
+  repo_url: 'https://github.com/michaeljosephmiller/lottery-analyzer'
+  site_url: 'https://michaeljosephmiller.github.io/lottery-analyzer/'
+  download_file: ''
 
-- title: "Python Data Analysis and Visualization"
-  date: "October 22, 2022"
-  screenshot: "python-logo.png"
-  description: "PowerPoint presentation demonstrating data analysis and visualization with Python"
-  alt_text: "python logo"
-  repo_url: ""
-  site_url: ""
-  download_file: "/assets/downloads/CEIS110_Sep2022_Final-Project_Michael-Miller.pptx"
+- title: 'Python Data Analysis and Visualization'
+  date: 'October 22, 2022'
+  screenshot: 'python-logo.png'
+  description: 'PowerPoint presentation demonstrating data analysis and visualization with Python'
+  alt_text: 'python logo'
+  repo_url: ''
+  site_url: ''
+  download_file: '/assets/downloads/CEIS110_Sep2022_Final-Project_Michael-Miller.pptx'
 
-- title: "Linux Basic Administration Presentation"
-  date: "October 22, 2022"
-  screenshot: "linux_tux.svg"
-  description: "DeVry University CEIS106 Final Project"
-  alt_text: "Linux text with funny penguin face"
-  repo_url: ""
-  site_url: ""
-  download_file: "/assets/downloads/CEIS106_Sep-2022_Final-Project_Michael-Miller.pptx"
+- title: 'Linux Basic Administration Presentation'
+  date: 'October 22, 2022'
+  screenshot: 'linux_tux.svg'
+  description: 'DeVry University CEIS106 Final Project'
+  alt_text: 'Linux text with funny penguin face'
+  repo_url: ''
+  site_url: ''
+  download_file: '/assets/downloads/CEIS106_Sep-2022_Final-Project_Michael-Miller.pptx'
 
-- title: "Arduino Home Security and Automation System"
-  date: "August 26, 2022"
-  screenshot: "CEIS101_July2022_Final_Project_Michael_Miller.png"
-  description: "This project is a prototype for an Arduino based home security and automation system."
-  alt_text: "screenshot of project design"
-  repo_url: "https://github.com/michaeljosephmiller/arduino-home-security"
-  site_url: ""
-  download_file: "/assets/downloads/arduino_alarm.pptx"
+- title: 'Arduino Home Security and Automation System'
+  date: 'August 26, 2022'
+  screenshot: 'CEIS101_July2022_Final_Project_Michael_Miller.png'
+  description: 'This project is a prototype for an Arduino based home security and automation system.'
+  alt_text: 'screenshot of project design'
+  repo_url: 'https://github.com/michaeljosephmiller/arduino-home-security'
+  site_url: ''
+  download_file: '/assets/downloads/arduino_alarm.pptx'
 
-- title: "Tribute Page"
-  date: "November 15, 2021"
-  screenshot: "tribute-page-screenshot.png"
-  description: "Website that celebrates the aircraft carrier U.S.S. Midway, CV-41."
-  alt_text: "screenshot of u.s.s. midway tribute page"
-  repo_url: "https://github.com/michaeljosephmiller/fcc-tribute-page"
-  site_url: "https://michaeljosephmiller.github.io/fcc-tribute-page/"
-  download_file: ""
+- title: 'Tribute Page'
+  date: 'November 15, 2021'
+  screenshot: 'tribute-page-screenshot.png'
+  description: 'Website that celebrates the aircraft carrier U.S.S. Midway, CV-41.'
+  alt_text: 'screenshot of u.s.s. midway tribute page'
+  repo_url: 'https://github.com/michaeljosephmiller/fcc-tribute-page'
+  site_url: 'https://michaeljosephmiller.github.io/fcc-tribute-page/'
+  download_file: ''
 
-- title: "Product Landing Page"
-  date: "November 16, 2021"
-  screenshot: "landing-page-screenshot.png"
-  description: "Website that demonstrates a product landing page."
-  alt_text: "screenshot of product landing page"
-  repo_url: "https://github.com/michaeljosephmiller/fcc-product-landing-page"
-  site_url: "https://michaeljosephmiller.github.io/fcc-product-landing-page/"
-  download_file: ""
+- title: 'Product Landing Page'
+  date: 'November 16, 2021'
+  screenshot: 'landing-page-screenshot.png'
+  description: 'Website that demonstrates a product landing page.'
+  alt_text: 'screenshot of product landing page'
+  repo_url: 'https://github.com/michaeljosephmiller/fcc-product-landing-page'
+  site_url: 'https://michaeljosephmiller.github.io/fcc-product-landing-page/'
+  download_file: ''
 
-- title: "Technical Documentation Page"
-  date: "September 12, 2021"
-  screenshot: "tech-documentation-page-creenshot.png"
-  description: "Website that demonstrates a technical documentation page."
-  alt_text: "screenshot of technical documentation page"
-  repo_url: "https://github.com/michaeljosephmiller/fcc-technical-documentation-page/"
-  site_url: "https://michaeljosephmiller.github.io/fcc-technical-documentation-page/"
-  download_file: ""
+- title: 'Technical Documentation Page'
+  date: 'September 12, 2021'
+  screenshot: 'tech-documentation-page-creenshot.png'
+  description: 'Website that demonstrates a technical documentation page.'
+  alt_text: 'screenshot of technical documentation page'
+  repo_url: 'https://github.com/michaeljosephmiller/fcc-technical-documentation-page/'
+  site_url: 'https://michaeljosephmiller.github.io/fcc-technical-documentation-page/'
+  download_file: ''

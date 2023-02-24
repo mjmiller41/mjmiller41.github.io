@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: post.liquid
 title: 'Python Variables Tutorial'
 date: 2023-02-11
-categories: python variables tutorial
+categories: Python
 ---
 
 In programming, a variable is a container that holds a value that can be changed during the course of the program. In Python, a variable is created the moment you first assign a value to it. In this tutorial, we will go over the basics of variables in Python.
