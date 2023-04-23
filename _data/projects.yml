@@ -9,6 +9,15 @@
   site_url: ''
   download_file: '/filepath'
 
+- title: 'Fundamentals of Information systems Security'
+  date: '04/23/2023'
+  screenshot: 'SEC285.png'
+  description: 'Final Project for SEC285'
+  alt_text: 'screenshot of title slide'
+  repo_url: ''
+  site_url: ''
+  download_file: '/assets/downloads/SEC285.pptx'
+
 - title: 'Microsoft Azure Fundamentals'
   date: '02/26/2023'
   screenshot: 'azure_icons.png'
