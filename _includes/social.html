@@ -35,7 +35,7 @@
           href="{{ '/assets/images/svg-icons/brands.svg#github' | relative_url }}">
         </use>
       </svg>
-      <span class="username">{{ site.github_username| escape }}</span>
+      <span class="username">{{ site.github_username| escape }}.github.io</span>
     </a>
   </li>
   {%- endif -%}
@@ -56,7 +56,7 @@
           href="{{ '/assets/images/svg-icons/brands.svg#linkedin' | relative_url }}">
         </use>
       </svg>
-      <span class="username">{{ site.linkedin_username| escape }}</span>
+      <span class="username">in/{{ site.linkedin_username| escape }}</span>
     </a></li>
   {%- endif -%}
   {%- if site.pinterest_username -%}<li><a
@@ -83,7 +83,7 @@
           href="{{ '/assets/images/svg-icons/brands.svg#twitter' | relative_url }}">
         </use>
       </svg> <span
-        class="username">{{ site.twitter_username| escape }}</span></a></li>
+        class="username">&#64;{{ site.twitter_username| escape }}</span></a></li>
   {%- endif -%}
   {%- if site.youtube_username -%}<li><a
       href="https://youtube.com/{{ site.youtube_username| cgi_escape | escape }}"

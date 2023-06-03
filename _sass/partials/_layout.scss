@@ -22,6 +22,11 @@
   &:visited {
     color: $grey-color-dark;
   }
+
+  .logo {
+    border-radius: 50%;
+    border: 1px solid $brand-color;
+  }
 }
 
 .site-nav {
@@ -73,17 +78,17 @@
       padding-top: 10px;
       text-align: center;
 
-      > svg {
+      >svg {
         fill: $grey-color-dark;
       }
     }
 
-    input ~ .trigger {
+    input~.trigger {
       clear: both;
       display: none;
     }
 
-    input:checked ~ .trigger {
+    input:checked~.trigger {
       display: block;
       padding-bottom: 5px;
     }
@@ -95,6 +100,7 @@
       &:not(:last-child) {
         margin-right: 0;
       }
+
       margin-left: 20px;
     }
   }
@@ -116,6 +122,7 @@ main.site-content {
 button.copyBtn {
   display: block;
   margin: 0 0 0 auto;
+
   svg {
     width: 1em;
     height: 1em;
@@ -130,9 +137,11 @@ button.copyBtn {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-evenly;
+
   section {
     padding-top: 1rem;
   }
+
   .projects-section {
     border-top: 1px solid $brand-color;
   }
@@ -147,6 +156,7 @@ button.copyBtn {
   justify-content: space-around;
   align-items: flex-start;
   gap: 0.75rem;
+
   .project-tile {
     display: flex;
     flex-flow: column nowrap;
@@ -158,15 +168,18 @@ button.copyBtn {
     height: 20rem;
     box-shadow: 5px 5px 11px 3px rgba(0, 0, 0, 0.2);
     overflow: hidden;
+
     .tile-image {
       box-sizing: border-box;
       width: 100%;
       max-height: 8rem;
       overflow: hidden;
+
       .screenshot {
         max-width: 100%;
       }
     }
+
     .tile-content {
       box-sizing: border-box;
       width: 100%;
@@ -174,13 +187,15 @@ button.copyBtn {
       height: 10rem;
       display: flex;
       flex-direction: column;
-      > * {
+
+      >* {
         text-align: center;
         margin: 0;
         padding: 0;
         border-bottom: 1px solid #333;
       }
     }
+
     .tile-links {
       box-sizing: border-box;
       width: 100%;
@@ -192,9 +207,9 @@ button.copyBtn {
       align-items: center;
     }
   }
+
   @include media-query($on-palm) {
-    .project-tile {
-    }
+    .project-tile {}
   }
 }
 
@@ -203,7 +218,7 @@ button.copyBtn {
 */
 section.blog {
   .sub-title {
-    margin-top:  $spacing-unit / 2;
+    margin-top: $spacing-unit / 2;
     margin-bottom: 0;
   }
 }
@@ -259,7 +274,7 @@ section.blog {
       margin-left: 0;
       list-style: none;
 
-      > li {
+      >li {
         margin-bottom: $spacing-unit;
       }
     }
@@ -324,6 +339,7 @@ footer.site-footer {
 }
 
 @include media-query($on-laptop) {
+
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));

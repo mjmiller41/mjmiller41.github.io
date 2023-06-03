@@ -1,0 +1,64 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see
+# https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+permalink: /
+---
+
+<div class="home-page wrapper">
+  {%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  <section class="blog-section">
+    {%- if site.posts.size > 0 -%}
+    <h2 class="list-heading">{{ page.list_title | default: "Blog Posts" }}</h2>
+    <ul class="list">
+      {% assign sortedPosts = site.posts | sort: "date" | reverse %}
+      {%- for post in sortedPosts limit: 2 -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}
+        </span>
+        <h3>
+          <a class="list-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+    <p class="rss-subscribe">
+      subscribe
+      <a href="{{ '/feed.xml' | relative_url }}">via RSS</a>
+    </p>
+    {%- endif -%}
+  </section>
+
+  <section class="projects-section">
+    {%- if site.data.projects.size > 0 -%}
+    <h2 class="list-heading">Latest Projects</h2>
+    <ul class="list">
+      {% assign sortedProjects = site.data.projects | sort: "date" %}
+      {%- for
+      project in sortedProjects limit: 2 offset: 1 -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ project.date | date: date_format }}
+        </span>
+        <h3>
+          <a class="post-link" href="{{ '/projects' | relative_url }}">
+            {{ project.title | escape }}
+          </a>
+        </h3>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </section>
+  {%- endif -%}
+</div>

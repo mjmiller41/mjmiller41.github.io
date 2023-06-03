@@ -1,5 +1,5 @@
 ---
-layout: page.liquid
+layout: page
 title: About
 permalink: /about/
 ---

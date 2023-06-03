@@ -1,6 +1,6 @@
 {
   // Defined the Liquid variation you are working with
-  "liquid.engine": "shopify",
+  "liquid.engine": "jekyll",
 
   // Path location to a rule configuration file (relative to project root)
   "liquid.config.baseUrl": ".",
@@ -195,5 +195,11 @@
 
     // Merges into consecutive variables into a comma separated list
     "variableList": false
-  }
+  },
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "editor.formatOnSave": true
 }

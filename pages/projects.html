@@ -1,0 +1,55 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+
+<div class="projects-page">
+  {% for project in site.data.projects %}
+  {% if project.title != "Placeholder" %}
+  <div class="project-tile">
+    <div class="tile-image">
+      <img class="screenshot" src="/assets/images/{{- project.screenshot | relative_url -}}"
+        alt="{{-  project.alt_text -}}" />
+    </div>
+    <div class="tile-content">
+      <h3 class="sub-title">{{- project.title -}}
+      </h3>
+      <p class="project-description">{{- project.description -}}
+      </p>
+    </div>
+    <div class="tile-links">
+      {% if project.repo_url != "" %}
+      <div>
+        <a class="link-button" href="{{- project.repo_url | relative_url -}}" target="_blank" rel="noopener noreferrer">
+          <svg class="svg-icon">
+            <use href="{{ '/assets/images/svg-icons/brands.svg#github' | relative_url }}"></use>
+          </svg>
+          <span>Repo</span>
+        </a>
+      </div>
+      {% endif %}
+      {% if project.site_url != "" %}
+      <div>
+        <a class="link-button" href="{{- project.site_url | relative_url -}}" target="_blank" rel="noopener noreferrer">
+          <svg class="svg-icon">
+            <use href="{{ '/assets/images/svg-icons/solid.svg#globe' | relative_url }}"></use>
+          </svg>
+          <span>Website</span>
+        </a>
+      </div>
+      {% elsif project.download_file != "" %}
+      <div>
+        <a class="link-button" href="{{- project.download_file -}}" download>
+          <svg class="svg-icon">
+            <use href="{{ '/assets/images/svg-icons/solid.svg#file-arrow-down' | relative_url }}"></use>
+          </svg>
+          <span>PowerPoint</span>
+        </a>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>

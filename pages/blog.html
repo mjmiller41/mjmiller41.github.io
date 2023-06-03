@@ -1,0 +1,28 @@
+---
+title: Blog
+layout: page
+permalink: /blog/
+---
+
+<section class="blog">
+  <h2 class="title">Posts by Category</h2>
+  <ul class="posts">
+    {% assign categories = site.categories | sort %}
+    {% for category in
+    categories %}
+    <li>
+      <h3 class="category sub-title">{{ category[0] }}</h3>
+      <ul>
+        {% assign posts = category[1] | sort: "date" | reverse %}
+        {% for post in
+        posts %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          - {{ post.date | date_to_string: "ordinal", "US" }}
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

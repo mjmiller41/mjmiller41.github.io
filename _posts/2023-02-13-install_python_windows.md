@@ -1,5 +1,5 @@
 ---
-layout: post.liquid
+layout: post
 title: 'Installing Python on Windows'
 date: 2023-02-12
 categories: Python

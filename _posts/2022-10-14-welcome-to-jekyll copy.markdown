@@ -1,5 +1,5 @@
 ---
-layout: post.liquid
+layout: post
 title: 'Welcome to Jekyll!'
 date: 2022-10-14 07:59:24 -0400
 categories: Jekyll

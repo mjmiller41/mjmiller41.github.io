@@ -1,5 +1,5 @@
 ---
-layout: post.liquid
+layout: post
 title: 'Installing Python on Linux'
 date: 2023-02-13
 categories: Python

@@ -1,5 +1,5 @@
 ---
-layout: post.liquid
+layout: post
 title: 'Javascript Closures'
 date: 2023-02-13
 categories: Javascript
