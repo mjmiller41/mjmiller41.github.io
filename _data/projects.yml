@@ -41,7 +41,7 @@
   screenshot: 'esp32_project.jpg'
   description: 'Prototype of two way traffic light operation.'
   alt_text: 'image of code'
-  repo_url: 'https://github.com/michaeljosephmiller/arduino-traffic-signal'
+  repo_url: 'https://github.com/mjmiller1/arduino-traffic-signal'
   site_url: ''
   download_file: '/assets/downloads/CEIS114_Final-Project_Option-1_Michael-Miller.pptx'
 
@@ -50,8 +50,8 @@
   screenshot: 'lottery-analyzer.png'
   description: "Website that calculates overdue lottery numbers and displays them. Built with <a href='https://pyscript.net' target='_blank'>PyScript</a>, <a href='https://matplotlib.org' target='_blank'>MatPlotLib</a>, and <a href='https://pages.github.com' target='_blank'>GitHub Pages</a>"
   alt_text: 'screenshot of website'
-  repo_url: 'https://github.com/michaeljosephmiller/lottery-analyzer'
-  site_url: 'https://michaeljosephmiller.github.io/lottery-analyzer/'
+  repo_url: 'https://github.com/mjmiller41/lottery-analyzer'
+  site_url: 'https://mjmiller41.github.io/lottery-analyzer/'
   download_file: ''
 
 - title: 'Python Data Analysis and Visualization'
@@ -77,7 +77,7 @@
   screenshot: 'CEIS101_July2022_Final_Project_Michael_Miller.png'
   description: 'This project is a prototype for an Arduino based home security and automation system.'
   alt_text: 'screenshot of project design'
-  repo_url: 'https://github.com/michaeljosephmiller/arduino-home-security'
+  repo_url: 'https://github.com/mjmiller41/arduino-home-security'
   site_url: ''
   download_file: '/assets/downloads/arduino_alarm.pptx'
 
@@ -86,8 +86,8 @@
   screenshot: 'tribute-page-screenshot.png'
   description: 'Website that celebrates the aircraft carrier U.S.S. Midway, CV-41.'
   alt_text: 'screenshot of u.s.s. midway tribute page'
-  repo_url: 'https://github.com/michaeljosephmiller/fcc-tribute-page'
-  site_url: 'https://michaeljosephmiller.github.io/fcc-tribute-page/'
+  repo_url: 'https://github.com/mjmiller41/fcc-tribute-page'
+  site_url: 'https://mjmiller41.github.io/fcc-tribute-page/'
   download_file: ''
 
 - title: 'Product Landing Page'
@@ -95,8 +95,8 @@
   screenshot: 'landing-page-screenshot.png'
   description: 'Website that demonstrates a product landing page.'
   alt_text: 'screenshot of product landing page'
-  repo_url: 'https://github.com/michaeljosephmiller/fcc-product-landing-page'
-  site_url: 'https://michaeljosephmiller.github.io/fcc-product-landing-page/'
+  repo_url: 'https://github.com/mjmiller41/fcc-product-landing-page'
+  site_url: 'https://mjmiller41.github.io/fcc-product-landing-page/'
   download_file: ''
 
 - title: 'Technical Documentation Page'
@@ -104,6 +104,6 @@
   screenshot: 'tech-documentation-page-creenshot.png'
   description: 'Website that demonstrates a technical documentation page.'
   alt_text: 'screenshot of technical documentation page'
-  repo_url: 'https://github.com/michaeljosephmiller/fcc-technical-documentation-page/'
-  site_url: 'https://michaeljosephmiller.github.io/fcc-technical-documentation-page/'
+  repo_url: 'https://github.com/mjmiller41/fcc-technical-documentation-page/'
+  site_url: 'https://mjmiller41.github.io/fcc-technical-documentation-page/'
   download_file: ''

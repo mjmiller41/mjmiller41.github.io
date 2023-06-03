@@ -22,11 +22,12 @@ title: Michael Joseph Miller
 email: michael.joseph.miller@proton.me
 author:
   name: Michael Joseph Miller
-  url: https://michaeljosephmiller.github.io
+  url: https://mjmiller41.github.io
 description: >- # this means to ignore newlines until "baseurl:"
   Michael Joseph Miller's portfolio and blog website. Built with <a href='https://jekyllrb.com' target='_blank'>Jekyll</a> and <a href='https://github.com' target='_blank'>GitHub</a> Pages
 baseurl: # the subpath of your site, e.g. /blog
-url: https://michaeljosephmiller.github.io # the base hostname & protocol for your site, e.g. http://example.com
+url: https://mjmiller41.github.io # the base hostname & protocol for your site, e.g. http://example.com
+logo: /assets/favicon-32x32.png
 twitter_username: mjmiller41
 github_username: mjmiller41
 linkedin_username: mjmiller41
