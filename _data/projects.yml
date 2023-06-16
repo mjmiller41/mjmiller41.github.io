@@ -9,89 +9,89 @@
   site_url: ''
   download_file: '/filepath'
 
-- title: 'Fundamentals of Information systems Security'
-  date: '04/23/2023'
+- title: 'Wired Optical &amp; Wireless Communications'
+  date: June 24, 2023
+  screenshot: 'NETW310.png'
+  description: 'Presentation outlining the fundamentals of wired, optical, and wireless communications'
+  alt_text: 'screenshot of title slide'
+  repo_url: ''
+  site_url: ''
+  download_file: '/assets/downloads/NETW310_Final Project_Jun-24-2023_Michael-Miller.pptx'
+
+- title: 'Fundamentals of Information System Security'
+  date: April 23, 2023
   screenshot: 'SEC285.png'
-  description: 'Final Project for SEC285'
+  description: 'Presentation outlining the fundamentals of information system security'
   alt_text: 'screenshot of title slide'
   repo_url: ''
   site_url: ''
   download_file: '/assets/downloads/SEC285.pptx'
 
 - title: 'Microsoft Azure Fundamentals'
-  date: '02/26/2023'
+  date: February 26, 2023
   screenshot: 'azure_icons.png'
-  description: 'Powerpoint presentation outlining Microsoft Azure cloud product offerings.'
+  description: 'Presentation outlining Microsoft Azure cloud product offerings'
   alt_text: 'azure icons'
   repo_url: ''
   site_url: ''
   download_file: '/assets/downloads/NETW211_Final_Project_Michael-Miller_02-26-2023.pptx'
 
 - title: 'Basic Networking Skills'
-  date: '12/17/2022'
+  date: December 17, 2022
   screenshot: 'Sample-network-diagram.png'
-  description: "Powerpoint outlining the basics of Networking. Final project for DeVry University's NETW191 class."
+  description: "Presentation outlining the basics of networking"
   alt_text: 'image of network diagram'
   repo_url: ''
   site_url: ''
   download_file: '/assets/downloads/NETW191_Final-Project_Michael-Miller.pptx'
 
-- title: 'IoT Cloud Controlled Traffic Light Prototype'
-  date: '12/17/2022'
+- title: 'IoT Cloud Controlled Traffic Light'
+  date: December 17, 2022
   screenshot: 'esp32_project.jpg'
-  description: 'Prototype of two way traffic light operation.'
+  description: 'Arduino prototype of two way traffic light operation'
   alt_text: 'image of code'
-  repo_url: 'https://github.com/mjmiller1/arduino-traffic-signal'
+  repo_url: 'https://github.com/mjmiller41/arduino-traffic-signal'
   site_url: ''
   download_file: '/assets/downloads/CEIS114_Final-Project_Option-1_Michael-Miller.pptx'
 
-- title: 'Lottery Analyzer'
-  date: 'October 28, 2022'
-  screenshot: 'lottery-analyzer.png'
-  description: "Website that calculates overdue lottery numbers and displays them. Built with <a href='https://pyscript.net' target='_blank'>PyScript</a>, <a href='https://matplotlib.org' target='_blank'>MatPlotLib</a>, and <a href='https://pages.github.com' target='_blank'>GitHub Pages</a>"
-  alt_text: 'screenshot of website'
-  repo_url: 'https://github.com/mjmiller41/lottery-analyzer'
-  site_url: 'https://mjmiller41.github.io/lottery-analyzer/'
-  download_file: ''
-
 - title: 'Python Data Analysis and Visualization'
-  date: 'October 22, 2022'
+  date: October 22, 2022
   screenshot: 'python-logo.png'
-  description: 'PowerPoint presentation demonstrating data analysis and visualization with Python'
+  description: 'Presentation demonstrating data analysis and visualization with Python'
   alt_text: 'python logo'
   repo_url: ''
   site_url: ''
   download_file: '/assets/downloads/CEIS110_Sep2022_Final-Project_Michael-Miller.pptx'
 
-- title: 'Linux Basic Administration Presentation'
-  date: 'October 22, 2022'
+- title: 'Linux Basic Administration'
+  date: October 22, 2022
   screenshot: 'linux_tux.svg'
-  description: 'DeVry University CEIS106 Final Project'
+  description: 'Presentation outlining very basic Linux administration'
   alt_text: 'Linux text with funny penguin face'
   repo_url: ''
   site_url: ''
   download_file: '/assets/downloads/CEIS106_Sep-2022_Final-Project_Michael-Miller.pptx'
 
-- title: 'Arduino Home Security and Automation System'
-  date: 'August 26, 2022'
+- title: 'Home Security and Automation System'
+  date: August 26, 2022
   screenshot: 'CEIS101_July2022_Final_Project_Michael_Miller.png'
-  description: 'This project is a prototype for an Arduino based home security and automation system.'
+  description: 'Arduino prototype for a home security and automation system'
   alt_text: 'screenshot of project design'
   repo_url: 'https://github.com/mjmiller41/arduino-home-security'
   site_url: ''
   download_file: '/assets/downloads/arduino_alarm.pptx'
 
 - title: 'Tribute Page'
-  date: 'November 15, 2021'
+  date: November 15, 2021
   screenshot: 'tribute-page-screenshot.png'
-  description: 'Website that celebrates the aircraft carrier U.S.S. Midway, CV-41.'
+  description: 'Website that celebrating the aircraft carrier U.S.S. Midway, CV-41'
   alt_text: 'screenshot of u.s.s. midway tribute page'
   repo_url: 'https://github.com/mjmiller41/fcc-tribute-page'
   site_url: 'https://mjmiller41.github.io/fcc-tribute-page/'
   download_file: ''
 
 - title: 'Product Landing Page'
-  date: 'November 16, 2021'
+  date: November 16, 2021
   screenshot: 'landing-page-screenshot.png'
   description: 'Website that demonstrates a product landing page.'
   alt_text: 'screenshot of product landing page'
@@ -100,9 +100,9 @@
   download_file: ''
 
 - title: 'Technical Documentation Page'
-  date: 'September 12, 2021'
+  date: September 12, 2021
   screenshot: 'tech-documentation-page-creenshot.png'
-  description: 'Website that demonstrates a technical documentation page.'
+  description: 'Website that demonstrates a technical documentation page'
   alt_text: 'screenshot of technical documentation page'
   repo_url: 'https://github.com/mjmiller41/fcc-technical-documentation-page/'
   site_url: 'https://mjmiller41.github.io/fcc-technical-documentation-page/'

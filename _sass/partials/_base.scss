@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -69,7 +71,8 @@ figure,
  * `main` element
  */
 main {
-  display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+  display: block;
+  /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 
 /**
@@ -83,7 +86,7 @@ img {
 /**
  * Figures
  */
-figure > img {
+figure>img {
   display: block;
 }
 
@@ -100,8 +103,9 @@ ol {
 }
 
 li {
-  > ul,
-  > ol {
+
+  >ul,
+  >ol {
     margin-bottom: 0;
   }
 }
@@ -144,8 +148,8 @@ a {
 }
 
 hr {
-  color: $grey-color-light;
-  border: 1px solid $grey-color-light;
+  color: $grey-color-dark;
+  border: 1px solid $grey-color-dark;
 }
 
 /**
@@ -183,7 +187,7 @@ pre {
   padding: 8px 12px;
   overflow-x: auto;
 
-  > code {
+  >code {
     border: 0;
     padding-right: 0;
     padding-left: 0;
@@ -234,7 +238,7 @@ pre {
 }
 
 .social-media-list {
-  li + li {
+  li+li {
     padding-top: 5px;
   }
 }
@@ -249,21 +253,49 @@ table {
   color: lighten($text-color, 18%);
   border-collapse: collapse;
   border: 1px solid $grey-color-light;
+
   tr {
     &:nth-child(even) {
       background-color: lighten($grey-color-light, 6%);
     }
   }
+
   th,
   td {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
+
   th {
     background-color: lighten($grey-color-light, 3%);
     border: 1px solid darken($grey-color-light, 4%);
     border-bottom-color: darken($grey-color-light, 12%);
   }
+
   td {
     border: 1px solid $grey-color-light;
   }
+}
+
+.quotation {
+  position: relative;
+  width: fit-content;
+  height: 3rem;
+  margin: 0 auto 1rem;
+}
+
+.citation {
+  position: absolute;
+  top: 1.5rem;
+  right: 0;
+}
+
+p.text {
+  text-indent: 2rem;
+  line-height: 1.5rem;
+  margin: 0;
+}
+
+p.hanging {
+  padding-left: 2rem;
+  text-indent: -2rem;
 }

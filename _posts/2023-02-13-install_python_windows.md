@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Installing Python on Windows'
+description: 
 date: 2023-02-12
 categories: Python
 ---

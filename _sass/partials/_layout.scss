@@ -148,32 +148,46 @@ button.copyBtn {
 }
 
 /**
+* About Page 
+*/
+.certs-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  justify-content: space-around;
+
+  .cert {
+    border: 1px solid $text-color;
+    border-radius: 1rem;
+    text-align: center;
+    max-width: 10rem;
+    flex: 1 0 auto;
+
+    img {
+      border-radius: 1rem;
+    }
+  }
+}
+
+/**
 * Projects Page 
 */
 .projects-page {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  align-items: flex-start;
   gap: 1.5rem;
 
   .project-tile {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
-    align-items: flex-start;
-    // flex: 0 1 auto;
     border-radius: 5%;
     max-width: 15rem;
-    height: 20rem;
     box-shadow: 5px 5px 11px 3px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
 
     .tile-image {
-      box-sizing: border-box;
-      width: 100%;
-      max-height: 8rem;
-      overflow: hidden;
+      border-bottom: 1px solid $text-color;
 
       .screenshot {
         max-width: 100%;
@@ -187,30 +201,31 @@ button.copyBtn {
       height: 10rem;
       display: flex;
       flex-direction: column;
+      justify-content: center;
 
       >* {
         text-align: center;
         margin: 0;
         padding: 0;
-        border-bottom: 1px solid #333;
       }
     }
 
     .tile-links {
-      box-sizing: border-box;
-      width: 100%;
-      padding: 5px 0;
-      height: 2rem;
       display: flex;
-      flex-flow: row nowrap;
       justify-content: space-around;
       align-items: center;
+      border-top: 1px solid $text-color;
+
+      .svg-icon {
+        padding: 0;
+        vertical-align: unset;
+      }
     }
   }
 
-  @include media-query($on-palm) {
-    .project-tile {}
-  }
+  // @include media-query($on-palm) {
+  //   .project-tile {}
+  // }
 }
 
 /**
@@ -230,7 +245,7 @@ section.blog {
   margin-bottom: $spacing-unit;
 }
 
-.section-title {
+.post-title {
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;

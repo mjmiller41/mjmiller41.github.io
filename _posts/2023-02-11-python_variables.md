@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Python Variables Tutorial'
+description: 'Introduction to variables with Python'
 date: 2023-02-11
 categories: Python
 ---

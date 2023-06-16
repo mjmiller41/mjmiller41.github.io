@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Javascript Closures'
+description: 'What are Javascript Closures?'
 date: 2023-02-13
 categories: Javascript
 tags: javascript closures
