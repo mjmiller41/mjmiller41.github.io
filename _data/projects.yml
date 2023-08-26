@@ -9,6 +9,15 @@
   site_url: ''
   download_file: '/filepath'
 
+- title: 'Fundamentals of Infrastructure Security'
+  date: 'August 26, 2023'
+  screenshot: 'SEC290.png'
+  description: 'SEC290 Final Course Project'
+  alt_text: 'screenshot of title slide'
+  repo_url: ''
+  site_url: ''
+  download_file: '/assets/downloads/SEC290.pptx'
+
 - title: 'Wired Optical &amp; Wireless Communications'
   date: June 24, 2023
   screenshot: 'NETW310.png'
