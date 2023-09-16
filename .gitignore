@@ -1,5 +1,5 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-bundle
+# Dependency directories
+node_modules/
+
+# VSCode settings
+.vscode
