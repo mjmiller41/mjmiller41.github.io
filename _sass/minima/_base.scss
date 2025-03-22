@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /**
  * Reset some basic elements
  */
@@ -13,7 +20,9 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+html,
 body {
+  min-height: 100vh;
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background-color: $background-color;
@@ -24,7 +33,6 @@ body {
           font-feature-settings: "kern" 1;
   font-kerning: normal;
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
 }
 
@@ -43,10 +51,29 @@ ul, ol, dl, figure,
 
 
 /**
+ * `header` element
+ */
+header {
+  flex: 0 0 auto;
+}
+
+
+
+/**
  * `main` element
  */
 main {
-  display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+  display: block; /* Default value of `display` of `main` is 'inline' in IE 11. */
+  flex: 1 0 auto;
+}
+
+
+
+/**
+ * `footer` element
+ */
+footer {
+  flex: 0 0 auto;
 }
 
 

@@ -5,12 +5,20 @@ permalink: /skills/
 ---
 
 ### Technical Skills
-- **Languages:** Python, JavaScript, HTML, CSS, React, Material UI, Node.js  
-- **Systems/Tools:** Linux (command line), Windows, AWS RDS, GitHub, Cisco Packet Tracer, Google Places API  
-- **IT Competencies:** Networking, database management, troubleshooting, cybersecurity basics  
+
+|**Languages**|**Systems/Tools**|**IT Competencies**|
+|:------------:|:----------------:|:------------------:|
+|Python|Linux (command line)|Problem-solving|
+|JavaScript|Windows|database management|
+|HTML|AWS RDS|troubleshooting|
+|CSS|GitHub|cybersecurity basics|
+|React|Cisco Packet Tracer|
+|Material UI|Google Places API|
+|Node.js|
+{: rules="groups"}
 
 ### Soft Skills
-- Problem-solving  
+- Problem-solving
 - Teamwork  
 - Critical thinking  
 - Communication  

@@ -4,8 +4,6 @@ title: Contact
 permalink: /contact/
 ---
 
-## Contact Me
-
 I’d love to hear from you! Whether it’s about a job opportunity, collaboration, or just to say hello, feel free to reach out using the options below.
 
 ### Get in Touch
