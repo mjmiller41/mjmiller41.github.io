@@ -1,38 +1,28 @@
 source "https://rubygems.org"
 
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
-gem "jekyll", "~> 3.9.0"
+# Manage Jekyll version. Update to 4.3.3 for better compatibility and fewer dependency issues.
+# Run `bundle install` after changing, then use `bundle exec jekyll serve`.
+gem "jekyll", "~> 4.3.3"
 
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.0"
+# Default theme for Jekyll sites. Keeping minima as requested.
+gem "minima", "~> 2.5"  # Updated to match your _config.yml
 
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
-# gem "github-pages", group: :jekyll_plugins
-
-# If you have any plugins, put them here!
+# Plugins for additional functionality.
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-feed", "~> 0.17"  # Updated to match your _config.yml
 end
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-# and associated library.
+# Windows-specific gems for WSL compatibility (timezone data and directory watching).
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", "~> 1.2"
   gem "tzinfo-data"
 end
 
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.0", :platforms => [:mingw, :x64_mingw, :mswin]
+# Performance booster for watching directories on Windows/WSL.
+gem "wdm", "~> 0.1.0", platforms: [:mingw, :x64_mingw, :mswin]
 
-# kramdown v2 ships without the gfm parser by default. If you're using
-# kramdown v1, comment out this line.
+# Kramdown parser for GitHub Flavored Markdown (GFM), required for kramdown v2+.
 gem "kramdown-parser-gfm"
 
+# Ensure listen gem works in WSL without macOS-specific dependencies.
+gem "listen", "~> 3.9", platforms: [:ruby]
