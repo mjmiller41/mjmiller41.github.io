@@ -30,6 +30,12 @@ plugins:
 include:
   - _pages
 
+defaults:
+  - scope:
+      path: 'assets/images'
+    values:
+      image: true
+
 # Exclude from processing
 exclude:
   - Gemfile
