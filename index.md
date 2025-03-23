@@ -5,7 +5,7 @@ title: Home
 
 # Michael J. Miller
 
-Welcome to my portfolio! I'm a recent DeVry graduate with a focus on IT and programming, skilled in Python, JavaScript, React, and networking. Explore my projects and skills below.
+Welcome to my portfolio! I'm a recent DeVry University graduate with an A.S. Network Systems Administration, skilled in Web Development, Python, JavaScript, React, and networking. Explore my projects and skills below.
 
 - [About Me](/about)
 - [Skills](/skills)
