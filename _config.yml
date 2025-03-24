@@ -4,7 +4,7 @@
 # which you are expected to set up once and rarely edit after that.
 
 # Site settings
-title: Michael J. Miller - Portfolio
+title: Michael J. Miller
 email: michael.joseph.miller@gmail.com
 description: >- # Ignore newlines until "baseurl:"
   Portfolio showcasing IT and programming skills
@@ -14,6 +14,7 @@ github_username: mjmiller41
 
 # Navigation
 header_pages:
+  - index.md
   - _pages/about.md
   - _pages/skills.md
   - _pages/projects.md

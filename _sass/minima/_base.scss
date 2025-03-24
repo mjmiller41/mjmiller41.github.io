@@ -38,8 +38,8 @@ body {
   min-height: 100vh;
   font: $base-font-weight #{$base-font-size}/#{$base-line-height}
     $base-font-family;
-  color: $text-color;
-  background-color: $background-color;
+  color: var(--text-color);
+  background-color: var(--background-color);
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: 'kern' 1;
   -moz-font-feature-settings: 'kern' 1;
@@ -67,7 +67,7 @@ ol,
 dl,
 figure,
 %vertical-rhythm {
-  margin-bottom: $spacing-unit * 0.5;
+  margin-bottom: $spacing-unit;
 }
 
 /**
@@ -75,6 +75,8 @@ figure,
  */
 header {
   flex: 0 0 auto;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 /**
@@ -83,6 +85,8 @@ header {
 main {
   display: block; /* Default value of `display` of `main` is 'inline' in IE 11. */
   flex: 1 0 auto;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 /**
@@ -90,6 +94,8 @@ main {
  */
 footer {
   flex: 0 0 auto;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 /**
@@ -116,7 +122,7 @@ figcaption {
  */
 ul,
 ol {
-  margin-left: $spacing-unit;
+  margin-left: $spacing-unit * 2;
 }
 
 li {
@@ -142,15 +148,15 @@ h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: $color-primary;
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    color: darken($color-primary, 15%);
   }
 
   &:hover {
-    color: $text-color;
+    color: var(--text-color);
     text-decoration: underline;
   }
 
@@ -169,7 +175,7 @@ a {
 blockquote {
   color: $grey-color;
   border-left: 4px solid $grey-color-light;
-  padding-left: $spacing-unit * 0.5;
+  padding-left: $spacing-unit * 2;
   @include relative-font-size(1.125);
   letter-spacing: -1px;
   font-style: italic;
@@ -206,15 +212,24 @@ pre {
 }
 
 /**
+* Text Input Formatting
+*/
+input[type='text'],
+input[type='email'],
+textarea {
+  background-color: var(--input-background-color);
+}
+
+/**
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 4));
+  max-width: calc(#{$content-width} - (#{$spacing-unit} * 4));
   margin-right: auto;
   margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
+  padding-right: $spacing-unit * 2;
+  padding-left: $spacing-unit * 2;
   @extend %clearfix;
 
   @include media-query($on-laptop) {
@@ -256,15 +271,15 @@ pre {
  * Tables
  */
 table {
-  margin-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit * 2;
   width: 100%;
   text-align: $table-text-align;
-  color: lighten($text-color, 18%);
+  color: var(--text-color);
   border-collapse: collapse;
-  border: 1px solid $grey-color-light;
+  border: 1px solid $grey-color;
   tr {
     &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
+      background-color: lighten($grey-color, 6%);
     }
   }
   th,
@@ -272,7 +287,7 @@ table {
     padding: ($spacing-unit * 0.3333333333) ($spacing-unit * 0.5);
   }
   th {
-    background-color: lighten($grey-color-light, 3%);
+    background-color: lighten($grey-color-dark, 3%);
     border: 1px solid darken($grey-color-light, 4%);
     border-bottom-color: darken($grey-color-light, 12%);
   }
